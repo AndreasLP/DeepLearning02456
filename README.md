@@ -9,6 +9,8 @@ https://onedrive.live.com/?authkey=%21AJFfJ76wFCR%2DlMs&id=FC48E2EBC63C9E7A%2176
 (last access 03/01/2021). Code is setup to use a replaybuffer named 
 cartpole_swingup_40000_50000.pt.
 
+Note the SAC+AE uses the RAD model i.e. the observations are padded and then randomly cropped bakc to the original size.
+
 1. key_point_learning 
     The code here is used for training IMM models using either IMM 3 or IMM 9.
     The former uses a single RGB image and outputs three key points while the
