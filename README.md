@@ -1,15 +1,15 @@
 Code for project 2D on key point learning in RL.
 
-The code is located in three directories splitting the code up in three
+The code for training networks on the HPC is located in three directories; splitting the code up in three
 segments.
 
-A replaybuffer is needed when training the IMM model. One was provided by
+A replaybuffer is needed when training the IMM model on its own. One was provided by
 Nicklas Hansen at
 https://onedrive.live.com/?authkey=%21AJFfJ76wFCR%2DlMs&id=FC48E2EBC63C9E7A%21768516&cid=FC48E2EBC63C9E7A
-(last access 03/01/2021). Code is setup to use a replaybuffer named 
+(last access 03/01/2021). Code for training the IMM model on its own is setup to use a replaybuffer named 
 cartpole_swingup_40000_50000.pt.
 
-Note the SAC+AE uses the RAD model i.e. the observations are padded and then randomly cropped bakc to the original size.
+Note the SAC+AE uses the RAD model i.e. the observations are padded and then randomly cropped back to the original size.
 
 1. key_point_learning 
     The code here is used for training IMM models using either IMM 3 or IMM 9.
